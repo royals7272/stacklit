@@ -1,9 +1,9 @@
 {
   "$schema": "https://stacklit.dev/schema/v1.json",
   "version": "1",
-  "generated_at": "2026-04-13T00:50:26Z",
+  "generated_at": "2026-04-14T00:15:37Z",
   "stacklit_version": "dev",
-  "merkle_hash": "ae6184f085f428e554ce1069c7f5c1e3baf35c5f3cb7b381384adfc4ed4dbb22",
+  "merkle_hash": "390a42bfa745d14573b505f6e62b8e80d7bd621965c62f056a489603973fcf4c",
   "project": {
     "name": "stacklit",
     "root": ".",
@@ -13,8 +13,8 @@
     "primary_language": "go",
     "languages": {
       "go": {
-        "files": 62,
-        "lines": 8517
+        "files": 63,
+        "lines": 8642
       },
       "java": {
         "files": 1,
@@ -46,8 +46,8 @@
     "entrypoints": [
       "cmd/stacklit/main.go"
     ],
-    "total_files": 73,
-    "total_lines": 8723
+    "total_files": 74,
+    "total_lines": 8848
   },
   "modules": {
     "assets": {
@@ -193,10 +193,11 @@
     "internal/engine": {
       "purpose": "Core orchestration engine",
       "language": "go",
-      "files": 1,
-      "lines": 572,
+      "files": 2,
+      "lines": 697,
       "file_list": [
-        "engine.go"
+        "engine.go",
+        "engine_test.go"
       ],
       "exports": [
         "Run(opts Options) (*Result, error)",
